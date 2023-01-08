@@ -1,0 +1,49 @@
+/* Use a more sensible default for box-sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Make the content fill the whole height */
+html,
+body {
+	height: 100%;
+}
+
+body {
+	/* Remove the default margin on the body */
+	margin: 0;
+
+	/* Set the font to sensible defaults */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+
+	/* Align the page content in a vertical flex box */
+	display: flex;
+	flex-direction: column;
+	/* Center items horizontally */
+	align-items: center;
+}
+
+form {
+	/* Stretch form to fill all available space below */
+	margin-bottom: auto;
+}
+
+input {
+	/*
+    Add a little more space inside of the input elements
+    This is equivalent to the size of one character which is normally 8 pixels
+    */
+	padding: 1ch;
+}
+
+footer {
+	/* Give the footer text 16 pixels of space above and below */
+	padding: 1rem 0;
+
+	/* Stretch the footer to fill the whole width and center the text */
+	width: 100%;
+	text-align: center;
+}
