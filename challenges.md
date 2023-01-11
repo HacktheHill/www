@@ -2,7 +2,20 @@
 
 This is a list of challenges that you can do to earn points. You can do as many or as few as you want. You can also make up your own challenges if you want. The challenges are grouped by theme. You can complete them in any order you like. Each challenge is worth a certain number of points. The more points you earn, the higher your score will be. The highest score wins!
 
----
+## Junior
+
+- Create a GitHub repository (1pt)
+- Add a favicon (1pt)
+- Add a logo (2pt)
+- Add fancy background/font/colors (2pt)
+- Task hover animation (1pt)
+- Make it so that the most recent task is at the top (2pt)
+- Allow tasks to be removed (2pt)
+- Add a button to clear all tasks (2pt)
+- Use meta tags to make the page SEO friendly (1pt)
+- Make it so that the page works offline (2pt)
+
+## Senior
 
 - Create a GitHub repository (1pt)
 - Store the tasks in localStorage (5pt)
@@ -49,7 +62,6 @@ This is a list of challenges that you can do to earn points. You can do as many 
 ---
 
 - Make it so that the page works offline (2pt)
-- Make the app installable as a PWA (3pt)
 - Make it so that the page has 100% score on Lighthouse (4pt)
 - Deploy the app to a static hosting service such as GitHub Pages, Netlify, or Vercel (5pt)
 
